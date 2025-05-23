@@ -51,7 +51,7 @@ In the repository there are four folders, each has scripts used for different da
 - **diabetes-analysis-confusion-matrix-cross**   Same as above, with cross-validation
 - **diabetes-analysis-removed-column**  Effect of removing features using different methods
 - **diabetes-analysis-layers-epochs** Comparison of different MLP architectures on diabetes data
-
+> All diabetes scripts use a large dataset and they take a long time to run.
 ## Important note!
 When using Jupyter Notebooks, run the cells in order or use "Run All" to avoid errors.
 
