@@ -7,18 +7,27 @@ Ensure you have Python installed on your computer.
 
 ## Instructions:
 Download the script and the dataset:
-
-git clone https://github.com/AugusteStriog/mlp-class-imbalance.git
+```git clone https://github.com/AugusteStriog/mlp-class-imbalance.git```
 
 Go to the cloned repository.
 
-Before running any code, ensure that the required Python packages are installed.
-You can install them using the following command:
-```pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn notebook```
-
-In the repository there are four folders, each has scripts used for different data sets.
+## How to Run on VS Code
+The recommended way to run this project is using **[Visual Studio Code (VS Code)](https://code.visualstudio.com/)**.
+1. **Open the project folder in Visual Studio Code (VS Code)**.
+2. Open any `.ipynb` notebook file.
+3. Click **Run All** to execute all cells in the notebook.
+4. When prompted to select a kernel:
+   - Choose **Python Environments**.
+   - Select **Create Python Environment**.
+   - Pick **Venv**.
+   - Select a Python version (e.g., `Python 3.13.1 64-bit`).
+5. Open the **terminal** inside VS Code and run the following command to install the required packages:
+   ```bash
+   pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn notebook
 
 ## File Descriptions
+In the repository there are four folders, each has scripts used for different data sets.
+
 ### Irisai/  
 - **iris** Confusion matrix using the full Iris dataset
 - **iris_reduced_minority_dataset_30** Confusion matrix after removing 20 Versicolor samples
